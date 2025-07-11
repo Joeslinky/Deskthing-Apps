@@ -89,7 +89,7 @@ const Simple = ({ weatherData }: WeatherProps) => {
         >
           {/* Temperature */}
           <p className="text-[23vw] font-montserrat font-extrabold leading-none">
-            {weatherData ? Math.round(weatherData.current.apparentTemperature) + '°' : '00°'}
+            {weatherData ? Math.round(weatherData.current.temperature2m) + '°' : '00°'}
           </p>
           
           {/* Time */}
